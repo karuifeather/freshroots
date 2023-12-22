@@ -544,15 +544,25 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 1rem;
+  padding-left: 1rem;
 }
 
-.font-bold {
-  font-weight: 700;
+@media (min-width: 1124px) {
+  .container {
+    max-width: 1124px;
+  }
 }
 
-.underline {
-  text-decoration-line: underline;
+.font-Lato {
+  font-family: Lato, sans-serif;
+}
+
+.text-fr-primary-green {
+  --tw-text-opacity: 1;
+  color: rgb(76 175 80 / var(--tw-text-opacity));
 }
