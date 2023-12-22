@@ -1,0 +1,17 @@
+{
+  "name": "freshroots-landing",
+  "version": "1.0.0",
+  "description": "Landing page built with Tailwind for Freshroots.",
+  "main": "index.js",
+  "scripts": {
+    "build:tailwind": "tailwind build -i src/style.css -o public/style.css"
+  },
+  "keywords": [
+    "freshroots"
+  ],
+  "author": "Aashaya Aryal",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.0"
+  }
+}
