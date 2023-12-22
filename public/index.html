@@ -9,8 +9,53 @@
   <body class="font-Lato">
     <!-- Header -->
     <header>
-      <nav class="container">
-        <h1 class="text-fr-primary-green">testing</h1>
+      <nav class="container flex items-center py-4 mt-4 sm:mt-12">
+        <!-- logo -->
+        <div>
+          <a href="#" class="flex items-center py-5 px-1 sm:text-xl uppercase">
+            <img
+              src="./images/freshroots-logo-green.svg"
+              alt="FreshRoots Logo"
+              class="h-12 w-12 sm:h-20 sm:w-20 mr-1"
+            />
+            <span class="font-bold">FreshRoots</span>
+          </a>
+        </div>
+
+        <ul
+          class="hidden sm:flex flex-1 justify-end items-center gap-12 uppercase font-light"
+        >
+          <li class="cursor-pointer">Shop</li>
+          <li class="cursor-pointer">Blog</li>
+          <li class="cursor-pointer">About</li>
+          <li class="cursor-pointer">Contact</li>
+          <button
+            type="button"
+            class="px-7 py-3 rounded-md bg-fr-earthy-brown text-white uppercase"
+          >
+            Login
+          </button>
+        </ul>
+
+        <div class="sm:hidden flex flex-1 justify-end items-center">
+          <!-- mobile menu button -->
+          <button class="mobile-menu-button p-4">
+            <svg
+              class="h-6 w-6 sm:h-8 sm:w-8 stroke-fr-earthy-brown"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16m-7 6h7"
+              />
+            </svg>
+          </button>
+        </div>
       </nav>
     </header>
   </body>
