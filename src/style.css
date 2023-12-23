@@ -3,3 +3,15 @@
 @tailwind utilities;
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Raleway:wght@400;600;700&display=swap');
+
+.btn {
+  @apply shadow-md py-3 px-6 rounded-md transition duration-300;
+}
+
+.cta-primary {
+  @apply bg-fr-primary-green text-white;
+}
+
+.cta-brown {
+  @apply bg-fr-earthy-brown text-white;
+}
