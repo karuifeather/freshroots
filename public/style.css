@@ -644,6 +644,14 @@ video {
   margin-top: 1.25rem;
 }
 
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
+}
+
 .flex {
   display: flex;
 }
@@ -801,6 +809,11 @@ video {
 .bg-fr-primary-green {
   --tw-bg-opacity: 1;
   background-color: rgb(76 175 80 / var(--tw-bg-opacity));
+}
+
+.bg-fr-primary-green-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(53 132 56 / var(--tw-bg-opacity));
 }
 
 .stroke-fr-earthy-brown {
@@ -977,6 +990,21 @@ video {
   background-color: rgb(76 175 80 / var(--tw-bg-opacity));
 }
 
+.hover\:bg-fr-light-grey:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(247 247 247 / var(--tw-bg-opacity));
+}
+
+.hover\:text-fr-earthy-brown:hover {
+  --tw-text-opacity: 1;
+  color: rgb(121 85 72 / var(--tw-text-opacity));
+}
+
+.focus\:outline-none:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
 @media (min-width: 640px) {
   .sm\:mt-12 {
     margin-top: 3rem;
@@ -1012,6 +1040,10 @@ video {
 
   .sm\:w-8 {
     width: 2rem;
+  }
+
+  .sm\:flex-row {
+    flex-direction: row;
   }
 
   .sm\:px-4 {
@@ -1099,6 +1131,10 @@ video {
 
   .lg\:w-full {
     width: 100%;
+  }
+
+  .lg\:w-2\/4 {
+    width: 50%;
   }
 
   .lg\:grid-cols-3 {
