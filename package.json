@@ -4,7 +4,7 @@
   "description": "Landing page built with Tailwind for Freshroots.",
   "main": "index.js",
   "scripts": {
-    "dev": "tailwind build --watch -i src/style.css -o public/style.css"
+    "dev": "tailwind build --watch -i src/style.css -o /style.css"
   },
   "keywords": [
     "freshroots"
